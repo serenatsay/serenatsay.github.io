@@ -1,0 +1,10 @@
+.body, .h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+.jumbotron {
+    height:500px;
+    width: auto;
+    background-image: url('https://s23.postimg.org/aiur0ibt7/IMG_4314.jpg');
+    
+}
