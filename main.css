@@ -1,15 +1,20 @@
 body, .h1 {
-    font-family: 'Londrina Solid', sans-serif;
-    font-size: 30px;
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 24px;
+    color: #96858F;
+    padding-top: 0px;
+}
+
+html, body {
+    height:100%;
+     background-image: url('https://s23.postimg.org/aiur0ibt7/IMG_4314.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 
 .jumbotron {
-    background-image: url('https://s23.postimg.org/aiur0ibt7/IMG_4314.jpg');
-    background-repeat: no-repeat; 
-    background-position: center center; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: auto 100%;
+   
 
 }
