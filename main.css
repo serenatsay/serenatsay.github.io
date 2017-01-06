@@ -1,22 +1,39 @@
 body, .h1 {
-    font-family: 'Permanent Marker', sans-serif;
-    font-size: 24px;
-    color: #96858F;
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 20px;
+    color: #95A3A4;
     padding-top: 0px;
+    margin: 0;
+    border: 0;
+}
+
+.body, .h2 {
+    color: black;
+    padding-top: 0px;
+    margin: 0;
+    border-top: 0px;
 }
 
 html, body {
+    
     height:100%;
-     background-image: url('https://s23.postimg.org/aiur0ibt7/IMG_4314.jpg');
+
+   
+}
+
+.jumbotron {
+    max-width: 100%;
+    min-width: 1024px;
+    min-height:628px;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+    background-image: url('https://s23.postimg.org/aiur0ibt7/IMG_4314.jpg');
     background-repeat: no-repeat; 
     background-position: center center; 
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover; 
-    background-size: 100% 780px; 
-}
-
-.jumbotron {
-   
+    background-size: 100% auto; 
 
 }
