@@ -1,10 +1,11 @@
 body, .h1 {
     font-family: 'Amatic SC', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     color: #95A3A4;
     padding-top: 0px;
     margin: 20px 20px 20px 20px;
     border: 10px;
+    text-align: center;
 }
 
 .body, .h2 {
@@ -28,7 +29,7 @@ html, body {
     padding-top: 0px;
     margin-top: 0px;
     
-    background-image: url('https://s23.postimg.org/aiur0ibt7/IMG_4314.jpg');
+    background-image: url('https://s2.postimg.org/lmocjyqcp/background.jpg');
     background-repeat: no-repeat; 
     background-position: center center; 
     -webkit-background-size: cover; 
