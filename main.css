@@ -1,7 +1,7 @@
 body, .h1 {
-    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Patrick Hand SC', sans-serif;
     font-size: 30px;
-    color: #95A3A4;
+    color: #000000;
     padding-top: 0px;
     margin: 20px 20px 20px 20px;
     border: 10px;
@@ -26,10 +26,11 @@ html, body {
     max-width: 100%;
     min-width: 1024px;
     min-height:628px;
+    height: auto;
     padding-top: 0px;
     margin-top: 0px;
     
-    background-image: url('https://s2.postimg.org/lmocjyqcp/background.jpg');
+    background-image: url('https://s8.postimg.org/eb69og2wl/background.jpg');
     background-repeat: no-repeat; 
     background-position: center center; 
     -webkit-background-size: cover; 
@@ -38,3 +39,33 @@ html, body {
     background-size: 100% auto; 
 
 }
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: right;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+    background-color: #ffffff;
+    color:dodgerblue;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
