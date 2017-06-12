@@ -2,10 +2,23 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+
+head, img {
+    margin-top:40px !important;
+    margin-left:40px;
+    margin-bottom:-45px;
+    margin-right:20px;
+}
 
 head, h1 a {
-    color: #F1BB83;
+    margin-top:-20px !important;
+    margin-left: 39px;
+    color: #000000;
     text-decoration: none;
+    font-size:16px;
+    margin-bottom: 40px;
     
 }
 
@@ -20,17 +33,17 @@ hr {
 }
 
 body {
-    background-color: #FEEFDD;
+    background-color: #FFFFFF;
 }
 
 body, .h1 {
-    font-family: 'Knewave', sans-serif;
+    font-family: 'Work SanS', sans-serif;
     font-size: 20px;
-    color: #F1BB83;
+    color: ;
     padding-top: 0px;
     margin: 0px 0px 0px 0px;
     border: 0px;
-    text-align: center;
+    text-align: left;
 }
 
 .body, .h2 {
@@ -45,61 +58,107 @@ html, body {
     height:100%;  
 }
 
-.jumbotron {
-    max-width: 100%;
-    min-width: 1024px;
-    min-height:628px;
-    padding-top: 0px;
-    margin-top: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    background-image: url('');
-    background-repeat: no-repeat; 
-    background-position: center center; 
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    background-size: 100% auto; 
-
+body, img {
+    margin-top:10px;
 }
 
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    margin-top: -49px !important;
 
+
+ul.sidenav {
+    list-style-type: none;
+    margin-left: 35px;
+    margin-top: -20px !important;
+    padding-bottom:-20px !important;
     padding: 0;
     padding-bottom: -20px;
+    font-size:14px;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
     display: inline-block;
     list-style-type: none;
-    background-color: #FEEFDD;
-    font-family: 'Cabin Sketch', sans-serif;
+    background-color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+
 }
 
-/* Float the list items side by side */
-ul.topnav li {float: right;}
 
 /* Style the links inside the list items */
-ul.topnav li a {
+ul.sidenav li a {
     display: inline-block;
     color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 17px;
+    margin: 0px !important;
+    padding: 5px !important;
+
 }
 
 /* Change background color of links on hover */
-ul.topnav li a:hover {
-    color:#F1BB83;}
+ul.sidenav li a:hover {
+    padding-bottom: 3px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color:#4D0021;}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
-ul.topnav li.icon {display: none;}
+ul.sidenav li.icon {display: none;}
 
+.container {
+    background-color: white;
+    background-size: 100% 70%;
+    margin-top: -200px !important;
+    margin-right:100px;
+    float:right;
+    
+}
+
+/* Secondary nav bar */
+ul.secondNav li {
+    list-style-type: none;
+    margin-left: -15px;
+}
+
+/* Style the second nav bar links */
+ul.secondNav li a {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+    transition: 0.3s;
+    margin: 0px !important;
+    padding: 5px !important;
+}
+
+/* Change background color of links on hover */
+ul.secondNav li a:hover {
+    padding-bottom: 3px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color:#4D0021;;
+    
+    }
+div.fill-screen {
+    position: fixed;
+    left: 200px;
+    right: 0;
+    top: 0;
+    bottom: 150px;
+    text-align: center;
+}
+
+img.profpic {
+    max-width: 199%;
+    max-height: 199%
+}
 p {
     font-family: 'Nunito', sans-serif;
     font-size:15px;
+}
+
+footer {
+    margin-top:300px;
+    text-align: center;
 }
