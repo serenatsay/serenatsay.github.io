@@ -95,12 +95,22 @@ ul.sidenav li a {
 
 }
 
+
 /* Change background color of links on hover */
 ul.sidenav li a:hover {
     padding-bottom: 3px;
-    border-bottom-width: 3px;
+    border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color:#4D0021;}
+
+
+ul.sidenav li a.active {
+    padding-bottom: 3px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color:#4D0021;}
+
+}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.sidenav li.icon {display: none;}
@@ -135,7 +145,7 @@ ul.secondNav li a {
 /* Change background color of links on hover */
 ul.secondNav li a:hover {
     padding-bottom: 3px;
-    border-bottom-width: 3px;
+    border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color:#4D0021;;
     
