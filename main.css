@@ -191,19 +191,25 @@ div.fill-screen {
     bottom: 150px;
     text-align: center;
 }
+
 div.fill-screen p {
     margin-top:100px;
 }
+
 img.profpic {
     max-width: 199%;
     max-height: 199%
 }
+
 p {
     font-family: 'Nunito', sans-serif;
     font-size:15px;
 }
 
 footer {
-    margin-top:300px;
-    text-align: center;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
 }
