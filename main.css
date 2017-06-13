@@ -118,14 +118,35 @@ ul.sidenav li a.active {
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.sidenav li.icon {display: none;}
 
+
+.previous {
+    float:left;
+    margin-top:250px;
+    margin-left:100px;
+}
+
+
 .container {
-    background-color: white;
     background-size: 100% 70%;
     margin-top: -200px !important;
     margin-right:100px;
     float:right;
+    color:black;
     
 }
+.content {
+    margin-top:200px;
+    margin-left:100px;
+    float:left;
+}
+    
+
+.next {
+    float:right;
+    margin-top:250px;
+    margin-right:100px;
+}
+
 
 /* Secondary nav bar */
 ul.secondNav li {
@@ -162,6 +183,14 @@ div.fill-screen {
     text-align: center;
 }
 
+#contact {
+    position: fixed;
+    left: 200px;
+    right: 0;
+    top: 0;
+    bottom: 150px;
+    text-align: center;
+}
 div.fill-screen p {
     margin-top:100px;
 }
