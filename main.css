@@ -208,8 +208,9 @@ p {
 
 footer {
     position: fixed; 
-    bottom: 0;
+    bottom: 100px;
     left: 0;
     right: 0;
     height: 50px;
+    text-align: center;
 }
