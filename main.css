@@ -169,6 +169,7 @@ ul.secondNav li a {
 /* Change background color of links on hover */
 ul.secondNav li a:hover {
     padding-bottom: 3px;
+    color: #4D0021 !important;
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color:#4D0021;;
